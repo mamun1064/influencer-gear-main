@@ -141,3 +141,32 @@ main{
     float: right;
     margin-top: 50px;
 }
+.bottom-section{
+    width: 1110px;
+}
+.bottom-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-right{
+    width: 610px;
+}
+.bottom-title{
+    font-size: 38px;
+    color: #0A0826;
+}
+.bottom-right .btn{
+    width: 166px;
+    height: 44px;
+    background: #E02C6D;
+    border-radius: 41px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+.bottom-right p{
+    font-size: 16px;
+    color: #6C6C6C;
+}

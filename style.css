@@ -211,3 +211,116 @@ footer{
     width: 32px;
     height: 32px;
 }
+@media only screen and (max-width:688px){
+    .header-wrapper{
+        width: 100%;
+        text-align: center;
+    }
+    .site-title{
+        display: block;
+        margin-left: 70px;
+    }
+    .h-right{
+        display: none;
+    }
+    .top-section{
+        width: 100%;
+    }
+    .top-section-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .top-left{
+        text-align: center;
+    }
+    .logo-section{
+        width: 100%;
+    }
+    .logo-wrapper{
+        width: 100%;
+        margin: 0;
+    }
+    .logo-nav{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-nav a{
+        margin-right: 5px;
+    }
+    .blog-section{
+        width: 100%;
+    }
+    .blog-container{
+        grid-template-columns: repeat(1 ,  1fr);
+    }
+    .bottom-section{
+        width: 100%;
+    }
+    .bottom-wrap{
+        flex-wrap: wrap;
+    }
+    .bottom-right{
+        text-align: center;
+    }
+
+}
+@media only screen and (min-width: 689px) and (max-width: 1080px) {
+    .header-wrapper{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .site-title{
+        display: block;
+        margin: 0 auto;
+    }
+    .h-right{
+        display: none;
+    }
+    .top-section{
+        width: 100%;
+    }
+    .top-section-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .top-left{
+        text-align: center;
+    }
+    .logo-section{
+        width: 100%;
+    }
+    .logo-wrapper{
+        width: 100%;
+        margin: 0;
+    }
+    .logo-nav{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-nav a{
+        margin-right: 15px;
+    }
+    .blog-section{
+        width: 100%;
+    }
+    .blog-container{
+        grid-template-columns: repeat(2 ,  1fr);
+    }
+    .bottom-section{
+        width: 100%;
+    }
+    .bottom-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom-thumbnail{
+        text-align: center
+    }
+    .bottom-right{
+        text-align: center;
+    }
+}

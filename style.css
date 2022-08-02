@@ -79,3 +79,21 @@ main{
 .btn i{
     margin-left: 10px;
 }
+.logo-section{
+    width: 1110px;
+    height: 110px;
+
+}
+.logo-section hr{
+    height: 1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+.logo-wrapper{
+    width: 986px;
+    margin-left: 50px;
+}
+.logo-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
